@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2568416C1BB4E0AC00ADCEC0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2568416B1BB4E0AC00ADCEC0 /* AppKit.framework */; settings = {ASSET_TAGS = (); }; };
+		2568416E1BB4E0AC00ADCEC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2568416D1BB4E0AC00ADCEC0 /* Foundation.framework */; settings = {ASSET_TAGS = (); }; };
+		256841721BB4E0AC00ADCEC0 /* MultiSelection.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 256841711BB4E0AC00ADCEC0 /* MultiSelection.xcscheme */; };
+		256841751BB4E0AC00ADCEC0 /* MultiSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 256841741BB4E0AC00ADCEC0 /* MultiSelection.m */; };
+		256841781BB4E0AC00ADCEC0 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 256841771BB4E0AC00ADCEC0 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		256841681BB4E0AC00ADCEC0 /* MultiSelection.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSelection.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		2568416B1BB4E0AC00ADCEC0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2568416D1BB4E0AC00ADCEC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		256841711BB4E0AC00ADCEC0 /* MultiSelection.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = MultiSelection.xcscheme; path = MultiSelection.xcodeproj/xcshareddata/xcschemes/MultiSelection.xcscheme; sourceTree = SOURCE_ROOT; };
+		256841731BB4E0AC00ADCEC0 /* MultiSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiSelection.h; sourceTree = "<group>"; };
+		256841741BB4E0AC00ADCEC0 /* MultiSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSelection.m; sourceTree = "<group>"; };
+		256841761BB4E0AC00ADCEC0 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		256841771BB4E0AC00ADCEC0 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		256841791BB4E0AC00ADCEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256841661BB4E0AC00ADCEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2568416C1BB4E0AC00ADCEC0 /* AppKit.framework in Frameworks */,
+				2568416E1BB4E0AC00ADCEC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2568415F1BB4E0AC00ADCEC0 = {
+			isa = PBXGroup;
+			children = (
+				2568416F1BB4E0AC00ADCEC0 /* MultiSelection */,
+				2568416A1BB4E0AC00ADCEC0 /* Frameworks */,
+				256841691BB4E0AC00ADCEC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256841691BB4E0AC00ADCEC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256841681BB4E0AC00ADCEC0 /* MultiSelection.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2568416A1BB4E0AC00ADCEC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2568416B1BB4E0AC00ADCEC0 /* AppKit.framework */,
+				2568416D1BB4E0AC00ADCEC0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2568416F1BB4E0AC00ADCEC0 /* MultiSelection */ = {
+			isa = PBXGroup;
+			children = (
+				256841731BB4E0AC00ADCEC0 /* MultiSelection.h */,
+				256841741BB4E0AC00ADCEC0 /* MultiSelection.m */,
+				256841761BB4E0AC00ADCEC0 /* NSObject_Extension.h */,
+				256841771BB4E0AC00ADCEC0 /* NSObject_Extension.m */,
+				256841791BB4E0AC00ADCEC0 /* Info.plist */,
+				256841701BB4E0AC00ADCEC0 /* Supporting Files */,
+			);
+			path = MultiSelection;
+			sourceTree = "<group>";
+		};
+		256841701BB4E0AC00ADCEC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256841711BB4E0AC00ADCEC0 /* MultiSelection.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256841671BB4E0AC00ADCEC0 /* MultiSelection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2568417C1BB4E0AC00ADCEC0 /* Build configuration list for PBXNativeTarget "MultiSelection" */;
+			buildPhases = (
+				256841641BB4E0AC00ADCEC0 /* Sources */,
+				256841651BB4E0AC00ADCEC0 /* Resources */,
+				256841661BB4E0AC00ADCEC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiSelection;
+			productName = MultiSelection;
+			productReference = 256841681BB4E0AC00ADCEC0 /* MultiSelection.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256841601BB4E0AC00ADCEC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = allmine;
+				TargetAttributes = {
+					256841671BB4E0AC00ADCEC0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 256841631BB4E0AC00ADCEC0 /* Build configuration list for PBXProject "MultiSelection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2568415F1BB4E0AC00ADCEC0;
+			productRefGroup = 256841691BB4E0AC00ADCEC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256841671BB4E0AC00ADCEC0 /* MultiSelection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256841651BB4E0AC00ADCEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256841721BB4E0AC00ADCEC0 /* MultiSelection.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256841641BB4E0AC00ADCEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256841751BB4E0AC00ADCEC0 /* MultiSelection.m in Sources */,
+				256841781BB4E0AC00ADCEC0 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2568417A1BB4E0AC00ADCEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		2568417B1BB4E0AC00ADCEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		2568417D1BB4E0AC00ADCEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = MultiSelection/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.allmine.MultiSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		2568417E1BB4E0AC00ADCEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = MultiSelection/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.allmine.MultiSelection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256841631BB4E0AC00ADCEC0 /* Build configuration list for PBXProject "MultiSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2568417A1BB4E0AC00ADCEC0 /* Debug */,
+				2568417B1BB4E0AC00ADCEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2568417C1BB4E0AC00ADCEC0 /* Build configuration list for PBXNativeTarget "MultiSelection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2568417D1BB4E0AC00ADCEC0 /* Debug */,
+				2568417E1BB4E0AC00ADCEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 256841601BB4E0AC00ADCEC0 /* Project object */;
+}
